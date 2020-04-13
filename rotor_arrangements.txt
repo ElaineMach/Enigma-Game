@@ -1,0 +1,6 @@
+I   | II  | III
+I   | III | II
+II  | I   | III
+II  | III | I
+III | I   | II
+III | II  | I

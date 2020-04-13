@@ -1,0 +1,19 @@
+
+ Entry disc   Left wheel   Middle wheel   Right wheel   Reflector    
+   _____         _____        _____          _____        _____
+  |A   A|       |C  _H|     >|H   M|        |O   B|-->---|A_   |
+  |B   B|       |E   F|      |I   A|        |.   .|      |T |  |       
+  |C   C|       |F   G|      |J   C|        |Q   G|      |L |  |
+  |D   D|       |G   R|      |K   B|        |R   D|      |C |  |
+  |E   E|       |H  _M|--<---|L_  Q|        |S   Q|      |G |  |
+ >|F   F|       |I | X|      |M |_L|----<---|T_  V|      |T |  |
+  |G   G|       |J | L|      |N   P|        |U | Z|      |D |  |
+  |H   H|       |K | P|      |O   O|        |V | N|      |L |  |
+  |I   I|       |L | S|      |P   Y|        |W |_T|---<--|A_|  |
+ <|J---J|---<---|M_| I|      |Q   C|        |X   A|      |G    |
+  |K   K|       |N   E|      |R   V|        |Y   W|      |C    |
+  |.   .|       |O   B|      |.   .|        |Z   Y|      |E    |
+  |.   .|       |P   M|      |.   .|        |A   H|      |D    |
+  |.   .|       |Q   N|      |Q   Z|       >|B   S|      |E    |
+  |_____|       |_____|      |_____|        |_____|      |_____|
+  

@@ -1,0 +1,25 @@
+
+ ___________________
+|     || || ||      |
+|    1||2||3||		|  <- Rotors
+|     || || ||      |
+| Q W E R T Z U I O |
+|  A S D F G H J K 	|  <- Lampboard
+| P Y X C V B N M L |
+|                   |
+|===================|
+|                   |
+| Q W E R T Z U I O |
+|  A S D F G H J K 	|  <- Keyboard 
+| P Y X C V B N M L | 
+|                   |
+|===================|
+|                   |
+| Q W E R T Z U I O |
+| o o o o o o o o o |
+|  A S D F G H J K 	|  <- Plugboard
+|  o o o o o o o o  |
+| P Y X C V B N M L |
+| o o o o o o o o o |
+|___________________|
+ 

@@ -1,0 +1,21 @@
+           
+          One rotation forward
+                   ^	
+                   |
+ Entry disc   Left wheel   Middle wheel   Right wheel    
+   _____         _____        _____          _____       
+  |A   A|       |C  _H|-->---|H_  M|        |O  _B|     
+  |B   B|       |D | O|      |I | A|        |. | .|                    
+  |C   C|       |E | G|      |J | C|        |. | .|     
+  |D   D|       |F | G|      |K | B|        |R | D|     
+  |E   E|       |G | R|      |L | Q|        |S | Q|          
+ >|F---F|--->---|H_| M|      |M | L|        |T | V|          
+  |G   G|       |I   X|      |N | P|        |U | Z|           
+  |H   H|       |J   L|      |O | O|        |V | N|
+  |I   I|       |K   P|      |P | Y|        |W | T|
+  |J   J|       |L   S|      |Q | C|        |X | A|      
+  |K   K|       |M   I|      |R | V|        |Y | W|
+  |.   .|       |N   E|      |. | .|        |Z | Y|
+  |.   .|       |O   B|      |. | .|        |A | H|
+  |.   .|       |P   M|      |W |_H|--->----|B_| S|
+  |_____|       |_____|      |_____|        |_____|

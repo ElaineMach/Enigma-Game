@@ -1,0 +1,19 @@
+
+ Entry disc   Left wheel   Middle wheel   Right wheel    
+   _____         _____        _____          _____       
+  |A   A|       |D   O|	     |H   M|        |O   F|      
+  |B   B|       |E   F|      |I   A|        |P   L|             
+  |C   C|       |F   G|      |J   C|        |Q   G|      
+  |D   D|       |G   R|      |K   B|        |R   D|      
+  |E   E|       |H   M|      |L  _Q|--->----|S_  Q|      
+ >|F---F|--->---|I_  X|      |M | L|        |T | V|      
+  |G   G|       |J | L|      |N | P|        |U | Z|       
+  |H   H|       |K | P|      |O | O|        |V | N|
+  |I   I|       |L | S|      |P | Y|        |W | T|
+  |J   J|       |M |_I|-->---|Q_| C|        |X | A|
+  |K   K|       |N   E|      |R   V|        |Y | W|
+  |.   .|       |O   B|      |S   W|        |Z | Y|
+  |.   .|       |P   M|      |T   E|        |A | H|
+  |.   .|       |Q   N|      |U   Z|        |B |_S|
+  |_____|       |_____|      |_____|        |_____|
+  
