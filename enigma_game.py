@@ -29,12 +29,24 @@ def print_textfile(textfile_dict):
 print_textfile({"textfile": "ascii_enigma.txt"})
 welcome = "Welcome to the Enigma Game. Make sure your console is on fullscreen. Click enter to continue."
 split(welcome)
+print("Appendix:\n\t(0) Beginning\n\t(1) Enigma sent to Poland\n\t(2) Hans Thilo Schmidt leaks document\n\t(3) Rejewski works on Enigma\n\t(4) What is the Enigma?\n\t(5) Rejewski breaks the Enigma\n\t(7) Rejewski breaks Enigma\n\t(6) Double enciphered fingerprints\n\t(7) U-33\n\t(8) Bletchly park\n\t(9) Capture of krebs\n\t(10) Operation primrose")
+print()
+print("Pick up from where you left last time or start from the beginning")
+print()
+print("Where to:")
+goto = input()
+if goto == "":
+    goto = "0"
+print()
+start_elsewhere = False 
+if goto != "0":
+    start_elsewhere = True 
 
 #########################
 # ENIGMA SENT TO POLAND
 #########################
 enigma_sent_to_poland = [
-    """January 1929\r
+    """- - - . . . - - - ENIGMA SENT TO POLAND - - - . . . - - -\rJanuary 1929\r
 An alert customs worker in Warsaw noticed a strange box had arrived all the way from Germany.\r
 Strangely enough...  A German Embassy official was requesting that it should be returned to Germany immediately.\r
 The package had been sent to Poland by accident.\r
@@ -56,7 +68,7 @@ Here's another chance."""}
 # HANS THILO SCHMIDT LEAKS DOCUMENTS
 ####################################
 hans_thilo_schmidt_leaks_documents = [
-    """November 1931\r
+    """- - - . . . - - - HANS THILO SCHMIDT LEAKS DOCUMENTS - - - . . . - - -\rNovember 1931\r
 Rodolphe Lemione, a triple agent from France's Military Intelligence Agency is sat in front of a German man named Hans Thilo Schmidt.\r
 He claimed to have important documents about the Enigma machine.\r
 A device used to encrypt messages in the German navy, air force and army.\r
@@ -106,12 +118,12 @@ And it found itself on the desk belonging to Marian Rejewski."""
 ######################################## 
 
 rejewski_breaks_enigma_pre = [
-    """December 1932\rMarian Rejewski, a newly recruited mathematician in the Polish Cipher Bureau had been selected to work on decrypting the Enigma in secret.\r
+    """- - - . . . - - - REJEWSKI WORKS ON THE ENIGMA - - - . . . - - -\rDecember 1932\rMarian Rejewski, a newly recruited mathematician in the Polish Cipher Bureau had been selected to work on decrypting the Enigma in secret.\r
 Marian knew that if he were to break the code, he would need to construct a replica Enigma machine first.\r
 Using the documents leaked form Hans Thilo Schmidt, which were Enigma manuals, Marian could piece together the machine."""
 ]
 rejewski_breaks_enigma_post = [
-    """Rejewski worked out a formula to solve the enigma by figuring out the wiring inside each rotor.\r
+    """- - - . . . - - - REJEWSKI BREAKS THE ENIGMA - - - . . . - - -\rRejewski worked out a formula to solve the enigma by figuring out the wiring inside each rotor.\r
 The only mistake he made was assuming that the entry disk was an extra scrambling unit."""
 ]
 
@@ -119,7 +131,7 @@ The only mistake he made was assuming that the entry disk was an extra scramblin
 # EXPLAINING ENIGMA
 ###################
 explaining_enigma = [
-    """The  Enigma machine was a device used to encrypt communication by Nazi Germany.\r
+    """- - - . . . - - - WHAT IS THE ENIGMA - - - . . . - - -\rThe  Enigma machine was a device used to encrypt communication by Nazi Germany.\r
 It was a simple box that looked like very much like a typewriter when opened up.\r
 It was anything but.\r
 On the surface, the Enigma comprised of the rotors, lampboard, keyboard and plugboard.""",
@@ -208,7 +220,7 @@ The codesheets were released for each month, detailing the setting used for each
 # DOUBLE ENCIPHERED FINGERPRINTS
 ################################
 double_enciphered_fingerprints = [
-    """The German code experts had decided that the message setting should be enciphered twice.""",
+    """- - - . . . - - - DOUBLE ENCIPHERED FINGERPRINTS - - - . . . - - -\rThe German code experts had decided that the message setting should be enciphered twice.""",
     {
         "question": "Was this a bad move?\r(A) Yes      (B) No",
         "right": "A",
@@ -274,7 +286,7 @@ However, without knowing the wiring of the two rotors, the code could not be bro
 #U-33
 #########
 u_33 = [
-    "February 1940",
+    "- - - . . . - - - U-33 - - - . . . - - -\rFebruary 1940",
     """The British war ship, Gleaner, was on its nightly patrol.\r
 Suddenly, something white and tubular had disappeared into the water.\r""",
     {
@@ -322,7 +334,7 @@ The British had taken the wheels.""",
 # BLETCHLEY PARK
 ################
 bletchly_park = [
-    "April 1940",
+    "- - - . . . - - - BLETCHLEY PARK - - - . . . - - -\rApril 1940",
     """Cryptographers at Bletchly park, central of code breaking in Britain, had familiarised themselves with Rejewski's work.\r
 Particularly Alan Turing, a brillian mathematician recruited to break the Enigma.\r
 The capture of U-33 provided the missing wiring needed to crack the Enigma.\r
@@ -354,7 +366,7 @@ The success of breaking the Enigma machine was owed to multiple contributions an
 # CAPTURE OF KREBS
 ##################
 capture_of_krebs = [
-    "March 1941",
+    "- - - . . . - - - CAPTURE OF KREBS - - - . . . - - -\rMarch 1941",
     """German Army trawlers, fishing boats that are coverted to military assets, were operating alogn the Norwegian coast.\r
 Operation Claymore was on the go.\r""",
     {"textfile": "ascii_boat.txt"},
@@ -388,7 +400,7 @@ Turing was able to use February's decrypted messages to form his algorithm for f
 # OPERATION PRIMROSE
 #####################
 operation_primrose = [
-    "May 1941",
+    "- - - . . . - - - OPERATION PRIMROSE - - - . . . - - -\rMay 1941",
     """The day before the documents from Operation Claymore reached the codebreakers at Bletchly Park, another convoy was being stalked by a U-boat.\r
 This was the U-110.\r
 The British HMS ship, Broadway, dropped two depth charges, forcing the crew to abandon ship and jump into the sea.\r
@@ -445,8 +457,8 @@ complete_storyline = [enigma_sent_to_poland,
                     operation_primrose,
                     end]
 
-for storyline in complete_storyline:
-    for elem in storyline:
+def play_a_script(script):
+    for elem in script:
         if isinstance(elem, dict):
             if "textfile" in elem:
                 print_textfile(elem)
@@ -454,6 +466,22 @@ for storyline in complete_storyline:
                 multi_choice(elem)
         else:
             split(elem)
+
+if start_elsewhere:
+    truncated_storyline = complete_storyline[int(goto)-1:]
+    for storyline in truncated_storyline:
+        play_a_script(storyline)
+
+for storyline in complete_storyline:
+    play_a_script(storyline)
+    # for elem in storyline:
+    #     if isinstance(elem, dict):
+    #         if "textfile" in elem:
+    #             print_textfile(elem)
+    #         else:
+    #             multi_choice(elem)
+    #     else:
+    #         split(elem)
 
 """
 {
