@@ -120,7 +120,7 @@ The only mistake he made was assuming that the entry disk was an extra scramblin
 ###################
 explaining_enigma = [
     """The  Enigma machine was a device used to encrypt communication by Nazi Germany.\r
-It was a simple box that when opened up looked like very much like a typewriter when opened up.\r
+It was a simple box that looked like very much like a typewriter when opened up.\r
 It was anything but.\r
 On the surface, the Enigma comprised of the rotors, lampboard, keyboard and plugboard.""",
 
@@ -255,7 +255,7 @@ The chains were call fingerprints.\r
 Changing the day key or even the plug board settings will result in the same chains with the same rotor settings.\r
 Rejewski asked himself, which of the 105,546 (6 * 26^3) possible settings as associated with a the number of links in a particular set of chains?\r
 Rejewski and his team spent the following year using a replication of the Enigma to catalogue the chain lengths of each of the 105,456 arrangements.\r
-Rejewski would build the chains and number of links for each corresponding letter, using his catalogue to find the particular chain and link number.\r
+They would build the chains and number of links for each corresponding letter, using his catalogue to find the particular chain and link number.\r
 This lead him directly to finding the day key (the rotor settings).\r
 Now that he had the rotor settings. He needed to find the plugboard settings.\r
 Rejewski would remove all the plugs and decipher a message using the day key.\r
@@ -400,7 +400,7 @@ A human chain was formed in the ship to pass all documents and equipment out of 
 One of them spotted a machine resembling a typewriter screwed to a the table in the radio room.
 """,
     {
-        "question": "Should they take the device?\r(A) Yes\r(No) The men are on a sinking submarine, the device is heavy and will take too long to remove",
+        "question": "Should they take the device?\r(A) Yes\r(B) No, The men are on a sinking submarine, the device is heavy and will take too long to remove",
         "right": "A",
         "right_path": "Yes, the device was an Enigma.",
         "wrong_path": "Does the device ring a bell? Perhaps its worth the risk."
@@ -423,7 +423,7 @@ Thank you for playing the Enigma.""",
     {"textfile": "ascii_submarine2.txt"}
 ]
 
-# for elem in end:
+# for elem in explaining_enigma:
 #     if isinstance(elem, dict):
 #         if "textfile" in elem:
 #             print_textfile(elem)
